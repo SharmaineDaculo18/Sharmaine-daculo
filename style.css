@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:18px 65px;
+    background-color: midnightblue;
+}
+.navbar .navlinks{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.navbar .logo p{
+    color: #ffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navlinks li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.hero{
+    height: 100vh;
+    background:url('../gagomo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 0px 65px;
+}
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0cm;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+}
+.hero .hero-content h2{
+    position: relative;
+    display: inline-block;
+}
+.hero .hero-content img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+       
+
+.hero .hero-content{
+    color: #fff;
+    width: 650;
+    z-index: 1;
+}
+.hero .hero-content h1{
+    
+    font-size: 65px;
+    margin-bottom:10px ;
+}
+
+body section {
+    background-color: rgb(236, 233, 247);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(27, 59, 35, 0.1);
+}
+.video-watch{
+    height: 100vh;
+    background:url('../photos.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 0px 65px;
+}
+.bady-content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    size: 18px;
+    text-align: center;
+}
+.video-content{
+    content: '';
+    position: absolute;
+    top: 0cm;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.video-watch .bady-content h2{
+    position: relative;
+    display: inline-block;
+
+}
+
+.hero .hero-content p{
+    font-size: 18px;
+}
+.hero .hero-content .hero-btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 20px;
+    font-size: 20;
+    color: #fff;
+    background-color: #fff;
+    
+}
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: midnightblue;
+    color: #fff;
+}
+
